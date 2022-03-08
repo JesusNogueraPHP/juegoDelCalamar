@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.jugadoresGame{
+    display: flex;
+    width: 85vw;
+    border: 1ps solid #000;
+    flex-wrap: wrap;
+}
+.caja{
+    width: 25%;
+}
+.err{
+    color: red;
+}
+.ok{
+    color:green
+}
+.done{
+    color:blue;
+}
+.fin{
+    width: 70vw;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
